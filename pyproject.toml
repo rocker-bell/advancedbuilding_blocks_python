@@ -1,6 +1,9 @@
 [tool.ruff]
 line-length = 88
-select = ["E", "F", "B"]  # Error, warning, Black formatting
+
+[tool.ruff.lint]
+select = ["E", "F", "B"]
+
 
 [tool.black]
 line-length = 88

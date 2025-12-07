@@ -1,12 +1,6 @@
-
----
-
-#  `pyproject.toml`** (Ruff + Black + MyPy config)
-
-```toml
 [tool.ruff]
 line-length = 88
-select = ["E", "F", "B"]  # Example: Error, F warning, Black formatting
+select = ["E", "F", "B"]  # Error, warning, Black formatting
 
 [tool.black]
 line-length = 88

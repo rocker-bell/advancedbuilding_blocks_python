@@ -1,5 +1,6 @@
-import pytest
+# tests/test_enumerables.py
 
+from src.pyblocks.enumerables import Enumerable as E
 
 def test_my_select():
     arr = [1, 2, 3, 4]
